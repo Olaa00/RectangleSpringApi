@@ -1,0 +1,32 @@
+2022-11-15 18:17:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM RECTANGLE \000d\000aDELETE [*]FROM RECTANGLE WHRE ID =2"; SQL statement:
+SELECT * FROM RECTANGLE 
+DELETE FROM RECTANGLE WHRE ID =2 [42000-214]
+2022-11-15 18:17:36 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM RECTANGLE \000d\000aDELETE [*]FROM RECTANGLE WHEE ID =2"; SQL statement:
+SELECT * FROM RECTANGLE 
+DELETE FROM RECTANGLE WHEE ID =2 [42000-214]
+2022-11-15 18:18:44 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM RECTANGLE \000d\000aDELETE [*]FROM RECTANGLE WHERE id = '2'"; SQL statement:
+SELECT * FROM RECTANGLE 
+DELETE FROM RECTANGLE WHERE id = '2' [42000-214]
+2022-11-15 18:18:49 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM RECTANGLE \000d\000aDELETE [*]FROM RECTANGLE WHERE id = '2'"; SQL statement:
+SELECT * FROM RECTANGLE 
+DELETE FROM RECTANGLE WHERE id = '2' [42000-214]
+2022-11-15 18:18:51 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM RECTANGLE \000d\000a[*]'"; SQL statement:
+SELECT * FROM RECTANGLE 
+' [42000-214]
+2022-11-15 18:19:41 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM RECTANGLE \000d\000aDELETE [*]* FROM RECTANGLE WHERE ID ='2'"; SQL statement:
+SELECT * FROM RECTANGLE 
+DELETE * FROM RECTANGLE WHERE ID ='2' [42000-214]
+2022-11-15 18:19:46 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM RECTANGLE \000d\000aDELETE [*]* FROM RECTANGLE WHERE ID = '2'"; SQL statement:
+SELECT * FROM RECTANGLE 
+DELETE * FROM RECTANGLE WHERE ID = '2' [42000-214]
+2022-11-15 18:19:50 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM RECTANGLE \000d\000aDELETE [*]* FROM RECTANGLE WHERE ID = 2"; SQL statement:
+SELECT * FROM RECTANGLE 
+DELETE * FROM RECTANGLE WHERE ID = 2 [42000-214]

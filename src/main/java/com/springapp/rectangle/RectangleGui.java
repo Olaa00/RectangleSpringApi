@@ -9,7 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 @Route
 public class RectangleGui extends VerticalLayout {
-    private RectangleRepo rectangleRepo; //wstrzymuje rectrepo
+    private RectangleRepo rectangleRepo; //wstrzykuje rectrepo
 
 
     private TextField textFieldHeight;
