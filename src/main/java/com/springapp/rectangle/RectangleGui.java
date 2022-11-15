@@ -32,7 +32,7 @@ public class RectangleGui extends VerticalLayout {
 
     public void addRectangle() {
     Rectangle rectangle = new Rectangle(); //zapisanie obiektu do rectangle
-    rectangle.setHeight(Integer.parseInt(textFieldHeight.getValue())); //ze stringa do int
+    rectangle.setHeight(Integer.parseInt(textFieldHeight.getValue())); //ze stringa do int  ,JESLI NIE PODAMY ZADNEJ WARTOSCI APLIKACA WPISZE NULLA DO POLA, DO TYPU PORSTEGO NIE JESTW STANIE PRZYPISAC ZADNEJ WARTOSCI, A GDY JEST INT MOZE PRZYPISAC NULL
         rectangle.setWidth(Integer.parseInt(textFieldWidth.getValue())); //ze stringa do int
     rectangleRepo.save(rectangle); //zapisanie do db
     }
