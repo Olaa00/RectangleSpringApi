@@ -30,3 +30,6 @@ DELETE * FROM RECTANGLE WHERE ID = '2' [42000-214]
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM RECTANGLE \000d\000aDELETE [*]* FROM RECTANGLE WHERE ID = 2"; SQL statement:
 SELECT * FROM RECTANGLE 
 DELETE * FROM RECTANGLE WHERE ID = 2 [42000-214]
+2022-11-16 19:52:02 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM RECTANGLE rect WHERE (2*rect.height +2* rect.width) >=  20 [*]? "; SQL statement:
+SELECT * FROM RECTANGLE rect WHERE (2*rect.height +2* rect.width) >=  20 ?  [42000-214]
